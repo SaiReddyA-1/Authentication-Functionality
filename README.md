@@ -1,4 +1,8 @@
-In this project, let's build **Authentication Functionality** by applying the concepts we have learned till now.
+# Authentication Functionality
+
+In this project, I have completed the implementation of **Authentication Functionality** by applying the concepts we have learned till now.
+
+## Output Preview
 
 ### Refer to the image below:
 
@@ -8,7 +12,7 @@ In this project, let's build **Authentication Functionality** by applying the co
 </div>
 <br/>
 
-### Design Files
+## Design Files
 
 <details>
 <summary>Click to view</summary>
@@ -20,28 +24,30 @@ In this project, let's build **Authentication Functionality** by applying the co
 
 </details>
 
-### Set Up Instructions
+## Set Up Instructions
 
 <details>
 <summary>Click to view</summary>
 
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
+
 </details>
 
-### Completion Instructions
+## Completion Instructions
 
 <details>
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities:
 
-- When an unauthenticated user tries to access the Home Route or About Route, then the page should be navigated to the Login Route
-- When an authenticated user tries to access the Home Route, or About Route, then the page should be navigated to the respective route
-- When an authenticated user tries to access the Login Route, then the page should be redirected to Home Route
-- When the **Logout** button is clicked then the page should be navigated to the Login Route
-- When a random path is provided in the URL then the page should be navigated to the Not Found Route
+- When an unauthenticated user tries to access the Home Route or About Route, then the page navigates to the Login Route.
+- When an authenticated user tries to access the Home Route or About Route, then the page navigates to the respective route.
+- When an authenticated user tries to access the Login Route, then the page redirects to the Home Route.
+- When the **Logout** button is clicked, the page navigates to the Login Route.
+- When a random path is provided in the URL, the page navigates to the Not Found Route.
+
 </details>
 
 <details>
@@ -57,7 +63,7 @@ The app must have the following functionalities
 
 #### Description:
 
-Returns a response based on the credentials provided
+Returns a response based on the credentials provided.
 
 #### Sample Success Response
 
@@ -87,7 +93,7 @@ Returns a response based on the credentials provided
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files to complete the implementation:
 
 - `src/App.js`
 - `src/components/Login/index.js`
@@ -103,9 +109,10 @@ Use these files to complete the implementation:
 - `src/components/NotFound/index.js`
 - `src/components/NotFound/index.css`
 - `src/components/ProtectedRoute/index.js`
+
 </details>
 
-### Important Note
+## Important Note
 
 <details>
 <summary>Click to view</summary>
@@ -114,11 +121,11 @@ Use these files to complete the implementation:
 
 **The following instructions are required for the tests to pass**
 
-- `Home` route should consist of `/` in the URL path
-- `Login` route should consist of `/login` in the URL path
-- `About` route should consist of `/about` in the URL path
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js`
-- As this project is mainly designed for Authentication Functionality and does not contain any input fields, use the below sample user credentials to login
+- `Home` route should consist of `/` in the URL path.
+- `Login` route should consist of `/login` in the URL path.
+- `About` route should consist of `/about` in the URL path.
+- No need to use the `BrowserRouter` in `App.js` as we have already included it in `index.js`.
+- As this project is mainly designed for Authentication Functionality and does not contain any input fields, use the below sample user credentials to login:
 
   - User credentials
 
@@ -129,7 +136,7 @@ Use these files to complete the implementation:
 
 </details>
 
-### Resources
+## Resources
 
 <details>
 <summary>Font-families</summary>
@@ -138,9 +145,9 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+### _Things to Keep in Mind_
+
+- All components you implement should go in the `src/components` directory.
+- Don't change the component folder names as those are the files being imported into the tests.
+- **Do not remove the pre-filled code**
+- Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
