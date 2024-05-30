@@ -4,7 +4,7 @@ In this project, I have completed the implementation of **Authentication Functio
 
 ## Output Preview
 
-### Refer to the image below:
+### Refer to the image below: 
 
 <br/>
 <div style="text-align: center;">
